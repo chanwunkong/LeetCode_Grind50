@@ -8,7 +8,7 @@ class Solution:
 # 思路: 在nums裡找符合target - i的數，且此數序號不等於i，返回i 跟 符合數的序號
 # 錯誤: 若i = target - i 報錯
 
-20220824
+# 20220824
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         for i in nums:
@@ -19,7 +19,7 @@ class Solution:
 # 思路: 新增new_nums,並在new_num移除i
 # 錯誤: 若input[x,x]相同數值,無法判斷target-i 的序數
 
-20220828
+# 20220828
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         k = 0
